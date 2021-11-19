@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Top */
+
+.header-top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.header-top-log{
+    margin-right: 20px;
+}
+
+.currency-list{
+    display: flex;
+    margin: 0;
+    margin-right: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.currency-item +.currency-item{
+    margin-left: 20px;
+}
+
+.header-top-link{
+    width: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+}
+
+.header-top-link-img{
+    margin-right: 7px;
+}
+
+/* Nav */
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 25px ;
+    margin-bottom: o;
+    padding: 20px 20px;
+    height: 68px;
+    left: 119px;
+    top: 124px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #515151;
+}
+
+/*  Mian  */
+.covid-list{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid black;
+}
+
+.covid-info{
+    width: 232px;
+    height: 50px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.covid-patients{
+    width: 161px;
+    height:52px ;
+    color: #DB0000;
+}
+
+.covid-healed{
+    width:161px ;
+    height: 52px;
+    color: #05B135;
+}
+
+.covid-deaths{
+    width:161px ;
+    height: 52px;
+    color: #000000;
+}
+.covid-number{
+    width: 161px;
+    height:52px ;
+    color: #000000;
+    justify-content: center;
+}
+.line{
+    width: 2px;
+    height: 70px;
+    background: #EB5569;
+}
+/*  Posts  */
+
+.post-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.post{
+    width: 380px;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.post-heading{
+    color: #202020;
+    text-decoration: none;
+}
+
+.post a{
+    text-decoration: none;
+    color: #6B6D97;
+    
+}
+
+.turn-off{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    margin-bottom: 46px;
+}
+
+.turn-off-logo {
+    display: flex;
+}
+
+.turn-off-logo img {
+    margin: 28px 17px 28px 34px;
+}
+
+.bell-icon{
+    width:29.25px ;
+    height:34.6px ;
+}
+
+.turn-off-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 32px;
+}
+
+.turn-off-link {
+    
+    width: 235px;
+    height: 42px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: linear-gradient(
+    90deg,
+    #fe5c28 0%,
+    rgba(255, 139, 54, 0.9) 88.43%
+    );
+    border-radius: 5px;
+    padding: 8px 8px 8px 15px;
+    margin-right: 20px;
+}
+
+/*  news section  */
+
+.left-right-news{
+    display: flex;
+}
+.reservoir-image{
+    border-radius: 5px;
+}
+
+.news-section   .container{
+    margin-bottom: 83px;
+}
+
+.news-heading{
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+
+.news-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-column-left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+
+.news-column-left-info {
+    width: 760px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-main-info {
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.data-day {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688a4;
+    margin-top: 0;
+}
+
+.left-column-link {
+    background: #295093;
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ffffff;
+    padding: 10px 32px;
+    margin: 0 auto;
+    text-decoration: none;
+    
+}
+
+.news-column-right {
+    display: flex; 
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+.news-column-right-info {
+    background: #f6f6f9;
+    border-radius: 5px;
+    padding: 20px;
+    width: 386px;
+    margin-bottom: 20px;
+}
+
+.right-column-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.right-column-text {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+
+.news-column-right-info .text-line {
+    width: 346px;
+    height: 4px;
+    background: #e4e4e4;
+    display: block;
+    margin-bottom: 18px;
+}
+
+/*  Phone section  */
+
+.phone .container {
+    background: #f6f6f9;
+    border-radius: 5px;
+    background-image: url(/images/phone.png), 
+    url(/images/googleplay.png), url(/images/appstore.png);
+    background-repeat: no-repeat;
+    background-size: 236px 177px, 162px 50px, 164px 50px;
+    background-position: left 19px bottom 0, right 203px top 90px,
+    right 20px top 90px;
+    margin-bottom: 38px;
+}
+
+.phone-info {
+    width: 529px;
+    margin: 64px 429px 66px 245px;
+    padding-top: 64px;
+    padding-bottom: 50px;
+}
+
+.phone-heading {
+    width: 526px;
+    height: 30px;
+    color: #295093;
+    font-size: 24px;
+}
+
+.phone-text {
+    width:515px;
+    height: 44px;
+    color: #333333;
+    font-size:18px ;
+}
+
+/*  Footer Section  */
+
+.footer {
+  background-color: #295093;
+}
+
+.footer .container{
+    padding: 20px 20px;
+}
+
+.footer-logo {
+    width:194px;
+    height:38px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+   background-color: #133C82;;
+}
+
+.footer-top-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.subscribe-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.footer-top-link {
+    background: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    text-align: center;
+    text-align: center;
+    padding: 10px 15px 10px 0;
+    margin-left: 17px;
+    margin-bottom: 18px;
+}
+
+.footer-top-link img {
+    margin-right: 6px;
+    margin-left: 9px;
+}
+
+
+.footer-top-link{
+    text-decoration: none;
+}
+.footer-line {
+    background: #133c82;
+    width: 1200px;
+    height: 3px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.footer-bottom {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-info {
+    width: 365px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.footer-list{
+   list-style-type: none;
+}
+
+.footer-item a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
